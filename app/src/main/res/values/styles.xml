@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme1">
+        <item name="textColor">@color/green_apple</item>
+        <item name="backgroundColor">#F4F0CB</item>
+        <item name="textSize">15sp</item>
+        <item name="btnBackground">@color/sky_blue</item>
+        <item name="android:windowAnimationStyle">@style/animationTrans</item>
+        <item name="imgs">@drawable/weather_day</item>
+    </style>
+
+    <style name="Theme2">
+        <item name="textColor">@color/sky_blue</item>
+        <item name="backgroundColor">#ffffff</item>
+        <item name="textSize">35sp</item>
+        <item name="btnBackground">@color/btnBackgroundColor</item>
+        <item name="android:windowAnimationStyle">@style/animationTrans</item>
+        <item name="imgs">@drawable/weather_night</item>
+
+
+    </style>
+    
+    
+    <style name="animationTrans">
+        
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>

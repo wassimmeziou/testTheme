@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">newTests</string>
+    <string name="welcome">welcome</string>
+    <string name="ok">OK</string>
+    <string name="todo">TODO</string>
+</resources>
